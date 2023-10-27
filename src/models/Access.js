@@ -19,6 +19,9 @@ const car_accessSchema = new Schema(
       type: String,
       required: true,
     },
+    comments: {
+      type: String,
+    },
     vehicleId: {
       type: Schema.Types.ObjectId,
       ref: "Vehicle",
